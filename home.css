@@ -1,0 +1,122 @@
+.main-anime{
+    background: radial-gradient(rgba(13,13, 13, 0.8), rgba(42, 42, 42, 0.8)), url("https://images5.alphacoders.com/131/1310347.jpg");
+    height: 104vh;
+    background-blend-mode: darken;
+    background-size: cover;
+    
+}
+.navbar-nav{
+    margin-top: 8px;
+    margin-right: auto;
+}
+
+nav.navbar{
+    background-color: transparent !important;
+}
+.navbar-nav .nav-link {
+    color: white !important; 
+    font-family: 'Montserrat', sans-serif;
+    transition: color 0.3s ease;
+    margin-right: 70px;
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(245, 119, 115) !important;
+    text-decoration: underline; 
+}
+.btn-login{
+    border-radius: 9px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    background-color: rgb(245, 119, 115);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3 ease-in ;
+    width: 86px;
+    margin-top: 9px;
+    height: 30px;
+    word-wrap: nowrap;
+}
+.btn-login:hover{
+    background-color: rgb(166, 82, 76);
+}
+.search{
+    border-radius: 5px;
+    border: none;
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-left: 40px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+}
+.search:focus{
+    box-shadow: 0 2px 8px rgba(245, 119, 115, 0.5);
+    outline: none;
+}
+.experience-head{
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+.experience-para{
+    color: #bfbfbf;
+    font-weight: normal;
+    font-size: 14px;
+    font-family:'Roboto', sans-serif;
+}
+.btn-register{
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3 ease-in ;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.btn-register:hover{
+    background-color: #0056b3;;
+}
+.home-theme {
+    height: 100vh;
+    
+    background: transparent; 
+    padding: 20px;
+    color: white;
+}
+.home-subcription{
+    background-color: #007bff;
+    margin-top: 10%;
+    border-radius: 10px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.subcription-price{
+    padding: 20px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.subcription-image {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_1 {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
